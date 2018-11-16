@@ -89,6 +89,11 @@
     transform:rotate(-30deg);
   }
 
+.textstuff {
+    width: 40%;
+    padding: 10px;
+}
+
 .supplier-card-one {
     height: 25vh;
     background-color: white;
@@ -104,24 +109,22 @@
     background-position-y: 50%;
     background-image: url(images/Bullock\ 1.jpg);
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-repeat: no-repeat;
 }
 
-.textstuff {
-    margin: auto 0;
-}
-
 .supplier-card-one h3 {
-	padding: 30px 30px 10px 30px;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
 }
 
 .supplier-card-one p {
-	padding: 10px 30px 10px 30px;
+    text-align: right;
+    margin: 0;
 }
 
 .orginc {
-	color: #E87C24;
+    color: #E87C24;
 }
 
 .supplier-card-two {
@@ -139,17 +142,18 @@
     background-position-y: 60%;
     background-image: url(images/DoubleDecker\ copy.jpg);
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-repeat: no-repeat;
 }
 
 .supplier-card-two h3 {
-	padding: 30px 30px 10px 30px;
-	margin: auto;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
 }
 
 .supplier-card-two p {
-	padding: 10px 30px 10px 30px;
+    text-align: right;
+    margin: 0;
 }
 
 
@@ -168,17 +172,18 @@
     background-position-y: 60%;
     background-image: url(images/acvb2.jpg);
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-repeat: no-repeat;
 }
 
 .supplier-card-three h3 {
-	padding: 30px 30px 10px 30px;
-	margin: auto;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
 }
 
 .supplier-card-three p {
-	padding: 10px 30px 10px 30px;
+    text-align: right;
+    margin: 0;
 }
 
 .suppers {
@@ -197,7 +202,7 @@
 }
 
 .supleft p {
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .supright {
@@ -496,4 +501,5 @@ button a {
 .faq-answer {
     font-size: 16px !important;
     color: black;
+    line-height: 115%
 }
